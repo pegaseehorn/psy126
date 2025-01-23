@@ -1,0 +1,19 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+---
+format: jb-book
+root: book/introduction
+parts:
+  - caption: Test Theory and Test Construction
+    chapters:
+      - file: book/w1_introduction/0_first
+        sections:
+          - file: book/w1_introduction/1_second
+          - file: book/w1_introduction/2_third
+      - file: book/template_material/section1
+        sections:
+          - file: book/template_material/templates
+          - file: book/template_material/notebook
+  - caption: Additional materials
+    chapters:
+      - file: book/references

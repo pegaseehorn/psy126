@@ -1,0 +1,7 @@
+# Files
+*.pyc
+
+# Folders
+_build/
+.conda/
+.venv/
