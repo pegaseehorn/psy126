@@ -6,10 +6,10 @@ root: book/introduction
 parts:
   - caption: Test Theory and Test Construction
     chapters:
-      - file: book/w1_introduction/0_first
+      - file: book/1_psy126/0_Introduction
         sections:
-          - file: book/w1_introduction/1_second
-          - file: book/w1_introduction/2_third
+          - file: book/1_psy126/1_CourseStructure
+          - file: book/1_psy126/2_TestReport
       - file: book/template_material/section1
         sections:
           - file: book/template_material/templates

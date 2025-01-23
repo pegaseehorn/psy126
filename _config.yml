@@ -1,6 +1,6 @@
 title: Demo Book
 author: Author Name
-logo: logo1.png
+logo: Psy126.png
 
 # Useful reference for creating the config: https://jupyterbook.org/en/stable/customize/config.html
 
@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/leonardozaggia/psy126
+  url: https://github.com/leonardozaggia/Psy126-Python
   branch: main
 
 # Add GitHub buttons to your book
@@ -29,7 +29,7 @@ html:
   home_page_in_navbar: false
   use_issues_button: true
   use_repository_button: true
-  baseurl: https://github.com/leonardozaggia/psy126
+  baseurl: https://github.com/leonardozaggia/Psy126-Python
   extra_css:
     - _static/custom.css
 
