@@ -5,3 +5,4 @@
 # Folders
 _build/
 .conda/
+.venv/
