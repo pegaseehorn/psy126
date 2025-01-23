@@ -1,14 +1,13 @@
 title: Demo Book
 author: Author Name
-logo: logo1.png
+logo: logo.png
 
 # Useful reference for creating the config: https://jupyterbook.org/en/stable/customize/config.html
 
 # Do not execute notebooks
 execute:
   execute_notebooks: "auto"
-
-exclude_patterns: [".venv", "README.md"]
+  #exclude_patterns: ["*.ipynb"]
 
 # Define the name of the latex output file for PDF builds
 latex:
@@ -21,7 +20,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/leonardozaggia/psy126
+  url: https://github.com/mibur1/psy111-book
   branch: main
 
 # Add GitHub buttons to your book
@@ -29,7 +28,7 @@ html:
   home_page_in_navbar: false
   use_issues_button: true
   use_repository_button: true
-  baseurl: https://github.com/leonardozaggia/psy126
+  baseurl: https://mibur1.github.io/psy111-book/
   extra_css:
     - _static/custom.css
 

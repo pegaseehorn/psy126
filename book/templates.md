@@ -122,6 +122,11 @@ $y_i = w_0 + w_1x_i + \varepsilon_i$
 
 We can then cite this reference note in text <sup>{{ref_test}}</sup>. Note that this requires you to specify the numbering in the header of the markdown file.
 
+- Add videos:
+
+```{video} https://www.youtube.com/watch?v=zUxOdq3sAFU
+```
+
 - Create an empty space:
 
 $\ $
