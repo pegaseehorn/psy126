@@ -1,14 +1,14 @@
 <div style="padding-top:1em; padding-bottom: 0.5em;">
-<img src="logo1.png" width =200 align="right" />
+<img src="Psy126.png" width =200 align="right" />
 </div>
 
-# Example README
+# How to work with the current book
 
 ## Online usage (recommended)
 
 Course materials for the psy126 seminar of the Neurocognitive Psychology Master's course at the University of Oldenburg. The content should primarily be accessed from the online book.
 
-If you host your book on GitHub pages, you can add the link to this button: [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/psy126/)
+If you host your book on GitHub pages, you can add the link to this button: [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/Psy126-Python/)
 
 ## Local usage
 
