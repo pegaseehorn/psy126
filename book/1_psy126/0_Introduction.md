@@ -12,8 +12,8 @@ kernelspec:
   name: python3
 ---
 
-# Introduction to the course
+# Welcome to the Test Analysis Seminar
 
 In this section the first information about the book will be shared
 
-Alternative: just Welcome to the Test Analysis Seminar
+Alternative: just Intro to the course

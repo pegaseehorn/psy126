@@ -12,6 +12,10 @@ kernelspec:
   name: python3
 ---
 
-# Welcome to the demo book
+# Welcome to Test Theory and Test construction
 
-This is an example introduction.
+### Usefull links:
+- [Material from the lecture]()
+- [Book for reference]()
+- [Python book to learn how to set up python]()
+- [Codespace, simple python development]()

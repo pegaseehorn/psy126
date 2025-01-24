@@ -10,6 +10,9 @@ parts:
         sections:
           - file: book/1_psy126/1_CourseStructure
           - file: book/1_psy126/2_TestReport
+      - file: book/2_Template/0_Introduction
+        sections:
+          - file: book/2_Template/1_yourTemplate        
       - file: book/template_material/section1
         sections:
           - file: book/template_material/templates
