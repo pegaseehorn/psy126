@@ -1,5 +1,5 @@
 <div style="padding-top:1em; padding-bottom: 0.5em;">
-  <img src="Psy126.png" width=100 align="right" style="padding-left: 1em;"/>
+  <img src="Psy126.png" width=170 align="right" style="padding-left: 1em;"/>
 </div>
 
 # Test Theory and Test Construction in Python 
