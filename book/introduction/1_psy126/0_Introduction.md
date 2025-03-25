@@ -12,15 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# About the course
+# <i class="fa-brands fa-bluesky"></i> Just the introduction
 
-
-## Different subtitles
-In this section the first information about the book will be shared
-
-Alternative: just Intro to the course
-
-
-
-```{video} https://www.youtube.com/watch?v=zUxOdq3sAFU
-```
+d
+asdfasdadsfasdfasdfasdfasdfasdf

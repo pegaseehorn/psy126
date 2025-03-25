@@ -4,19 +4,47 @@
 format: jb-book
 root: book/introduction
 parts:
-  - caption: Test Theory and Test Construction
+  - caption: Introduction
     chapters:
-      - file: book/1_psy126/0_Introduction
+      - file: book/introduction/1_psy126/0_Introduction
         sections:
-          - file: book/1_psy126/1_CourseStructure
-          - file: book/1_psy126/2_TestReport
-      - file: book/2_Template/0_Introduction
+          - file: book/introduction/1_psy126/1_CourseStructure
+          - file: book/introduction/1_psy126/2_TestReport
+          - file: book/introduction/1_psy126/3_Markdown
+
+      - file: book/introduction/2_Template/0_Introduction
         sections:
-          - file: book/2_Template/1_yourTemplate        
+          - file: book/introduction/2_Template/1_yourTemplate        
+
+  - caption: Test Theory and Test Construction Seminar
+    chapters:
+      - file: book/TT/6_Dichotomous_IRT/0_Introduction
+        sections:
+          - file: book/TT/6_Dichotomous_IRT/1_S06_final        
+      
+      - file: book/TT/7_Polythomous_IRT/0_Introduction
+        sections:
+          - file: book/TT/7_Polythomous_IRT/1_S07_final  
+
+      - file: book/TT/8_Quantitative_IRT/0_Introduction
+        sections:
+          - file: book/TT/8_Quantitative_IRT/1_S08_final    
+
+      - file: book/TT/9_Invariance/0_Introduction
+        sections:
+          - file: book/TT/9_Invariance/1_S09_final  
+
+      - file: book/TT/10_Multilevel/0_Introduction
+        sections:
+          - file: book/TT/10_Multilevel/1_S10_final        
+    
+  - caption: Template material
+    chapters:
       - file: book/template_material/section1
         sections:
           - file: book/template_material/templates
           - file: book/template_material/notebook
-  - caption: Additional materials
+
+  - caption: References
     chapters:
       - file: book/references
