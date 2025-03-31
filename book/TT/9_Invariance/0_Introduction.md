@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-scale-balanced"></i> Differential item functioning - Measurement invariance across groups and time
+# <i class="fa-solid fa-scale-balanced"></i> DIF
 
 
-## Work in progress
+## Differential item functioning - Measurement invariance across groups and time

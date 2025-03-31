@@ -12,7 +12,8 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-bars-progress"></i> Measurement models for Dichotomous scores 
+# <i class="fa-solid fa-bars-progress"></i> Dichotomous 
 
-## Work in progress
+## Measurement models for Dichotomous scores 
+
 

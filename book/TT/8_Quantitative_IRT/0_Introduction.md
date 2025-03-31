@@ -12,11 +12,8 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-chart-line"></i> Measurement models for Quantitative scores
+# <i class="fa-solid fa-chart-line"></i> Quantitative
 
+## Measurement models for Quantitative scores
 
-## Different subtitles
-In this section the first information about the book will be shared
-
-Alternative: just Intro to the course
 

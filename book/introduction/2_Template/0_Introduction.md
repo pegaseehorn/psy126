@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# Portfolio Template 
+# <i class="fa-solid fa-file"></i> Portfolio Template 
 
 This is the section where you can find the template of how we expect you to submit your work.
 The template includes:
