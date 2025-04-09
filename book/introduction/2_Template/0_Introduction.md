@@ -14,15 +14,5 @@ kernelspec:
 
 # <i class="fa-solid fa-file"></i> Portfolio Template 
 
-This is the section where you can find the template of how we expect you to submit your work.
-The template includes:
-- 
--
--
--
-
-
-## Example template
-
-The template can be found as the file in the next section.
-To download the template go to the folder where this section is stored, [link here](https://github.com/leonardozaggia/Psy126-Python/tree/main/book/2_Template), select the `1_yourTemplate` and download the file to your local machine.
+In the next page you can find a downlodable template for your portfolio.
+Soon, more information about the portfolio will be reported udner this section **Portfolio Template**

@@ -8,9 +8,10 @@ parts:
     chapters:
       - file: book/introduction/1_psy126/0_Introduction
         sections:
-          - file: book/introduction/1_psy126/1_ipynb
-          - file: book/introduction/1_psy126/2_Markdown
-          - file: book/introduction/1_psy126/3_Exercises
+          - file: book/introduction/1_psy126/1_Setup
+          - file: book/introduction/1_psy126/2_ipynb
+          - file: book/introduction/1_psy126/3_Markdown
+          - file: book/introduction/1_psy126/4_Exercises
 
       - file: book/introduction/2_Template/0_Introduction
         sections:

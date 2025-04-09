@@ -24,7 +24,7 @@ This book contains the course content for the Multivariate Statistics (psy111) l
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./introduction/1_psy126/0_Introduction
+:link: ./introduction/1_psy126/1_Setup
 :link-type: doc
 Setting things up 🚀
 ^^^
@@ -38,7 +38,7 @@ Explore the chapter {fas}`arrow-right`
 :::{grid-item-card}
 :class-body: text-center
 :class-header: bg-light text-center
-:link: ./template_material/notebook
+:link: ./introduction/2_Template/Test_Theory_Construction_Template
 :link-type: doc
 Your Portafolio Template 📋
 ^^^
@@ -66,7 +66,7 @@ Explore the chapter {fas}`arrow-right`
 ::::
 
 ### Usefull links:
-- [Material from the lecture]()
-- [Book for reference]()
-- [Python book to learn how to set up python]()
-- [Codespace, simple python development]()
+- [Lecture material](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=a819b16aace4eb774d54b16947317b94)
+- [Seminar material group 1](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=8d69f333772c13bb395a1419339af627)
+- [Seminar material group 2](https://elearning.uni-oldenburg.de/dispatch.php/course/files?cid=3d8547867bacf69380f84167a5b35e29)
+
