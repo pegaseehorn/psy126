@@ -16,4 +16,6 @@ kernelspec:
 
 ## Measurement models for Dichotomous scores 
 
+⚠️ This section is under construction. Content will be added soon.
+
 
