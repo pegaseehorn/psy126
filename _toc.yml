@@ -4,7 +4,7 @@
 format: jb-book
 root: book/introduction
 parts:
-  - caption: Psz126 Setup
+  - caption: Psy126 Setup
     chapters:
       - file: book/introduction/1_psy126/0_Introduction
         sections:

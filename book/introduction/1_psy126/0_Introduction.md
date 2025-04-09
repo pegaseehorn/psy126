@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-download"></i> Installation
+# <i class="fa-solid fa-earth-europe"></i> Working with .ipynb
 
 For the upcoming semester, we need to use functions from the R programming languae, which we will use within Python through the `rpy2` package.
 
@@ -64,6 +64,8 @@ R -e "install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc
 ````
 
 Once these installations are succesful, you are ready to start.
+[Link to the script testing the environment psy126.](https://elearning.uni-oldenburg.de/dispatch.php/course/files/index/fb7cffb2862814204658237b158e2baf?cid=8d69f333772c13bb395a1419339af627)
+
 
 `````{admonition} 🔧 Potential Issues
 :class: warning dropdown
