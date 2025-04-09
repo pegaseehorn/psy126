@@ -21,7 +21,7 @@ bibtex_bibfiles:
 
 # Information about where the book exists on the web
 repository:
-  url: https://github.com/leonardozaggia/Psy126-Python
+  url: https://github.com/leonardozaggia/Psy126
   branch: main
 
 # Add GitHub buttons to your book
@@ -29,7 +29,7 @@ html:
   home_page_in_navbar: false
   use_issues_button: true
   use_repository_button: true
-  baseurl: https://github.com/leonardozaggia/Psy126-Python
+  baseurl: https://github.com/leonardozaggia/Psy126
   extra_css:
     - _static/custom.css
 
