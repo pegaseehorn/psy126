@@ -65,16 +65,21 @@ R -e "install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc
 
 Once these installations are succesful, you are ready to start.
 
-```{dropdown} **Potential Issues**
+`````{admonition} 🔧 Potential Issues
+:class: warning dropdown
 
-If any of the R packages fail to install, you can use the pre-compiled conda packages as a backup. However, please note that they are not the newest version (this should be fine here but could generally lead to errors). This works by using `conda install` and putting an `r-` in front of the package name, all in lower case, e.g.:
+  ## Failing to install the packages?
 
-```bash
-conda install r-mpsychor
-```
+  If any of the R packages fail to install, you can use the pre-compiled conda packages as a backup. However, please note that they are not the newest version (this should be fine here but could generally lead to errors). This works by using `conda install` and putting an `r-` in front of the package name, all in lower case, e.g.:
 
-Alternatively, you can of course always install R packages through e.g. R Studio if you have it installed:
+  ```bash
+  conda install r-mpsychor
+  ```
 
-```bash
-install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')
-```
+  Alternatively, you can of course always install R packages through e.g. R Studio if you have it installed:
+
+  ```bash
+  install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')
+  ```
+
+`````

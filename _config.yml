@@ -41,3 +41,4 @@ launch_buttons:
 sphinx:
   html_context:
     default_mode: dark
+
