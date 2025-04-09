@@ -4,7 +4,7 @@
 format: jb-book
 root: book/introduction
 parts:
-  - caption: Introduction
+  - caption: Psz126 Setup
     chapters:
       - file: book/introduction/1_psy126/0_Introduction
         sections:
@@ -16,7 +16,7 @@ parts:
         sections:
           - file: book/introduction/2_Template/1_yourTemplate        
 
-  - caption: Test Theory and Test Construction Seminar
+  - caption: Test Theory and Test Construction
     chapters:
       - file: book/TT/6_Dichotomous_IRT/0_Introduction
         sections:

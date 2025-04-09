@@ -1,6 +1,8 @@
 # Files
 *README.md
 *.pyc
+*test.ipynb
+*test.py
 
 # Folders
 _build/
