@@ -73,7 +73,7 @@ Visual Studio Code provides local and customizable access to Jupyter environment
 
 **Cons**:
 - ❌ **Setup required**: Installation of VS Code, Python, and extensions is necessary.
-- ❌ **No free GPU unless you have one**: You’ll need a capable local setup for ML.
+- ❌ **No free GPU unless you have one**: For tasks that require heavy computation — such as those you might encounter during your practical project or thesis (e.g. if you work with big data) — you can request access to the university's High Performance Computing (HPC) cluster [Link to wiki](https://hpcwiki.uol.de/).
 
 **Technical Details**:
 - Notebooks are rendered via the Jupyter extension in VS Code.

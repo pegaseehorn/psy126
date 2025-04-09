@@ -82,4 +82,52 @@ Once these installations are succesful, you are ready to start.
   install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')
   ```
 
+  ````{tab-set}
+  ```{tab-item} Locate psy126 R
+
+  To find the R installation inside your `psy126` Conda environment:
+
+  1. Open the **Miniconda Prompt**.
+  2. Activate your environment:
+    ~~~bash
+    conda activate psy126
+    ~~~
+  3. Run the following command to locate the environment folder:
+    ~~~bash
+    echo %CONDA_PREFIX%
+    ~~~
+    This will return something like:
+    ~~~
+    C:\Users\your_username\AppData\Local\miniconda3\envs\psy126
+    ~~~
+
+  4. Inside that folder, you'll find the `R` installation at:
+    ~~~
+    <conda-env-path>\Lib\R
+    ~~~
+
+  📋 **Copy this full path** and add it to your **System Environment Variables** (System > Environment Variables > Edit PATH).
+
+  This allows external tools (like RStudio or Windows terminal) to recognize the R binaries from this environment.
+
+  ```
+
+  ```{tab-item} --- Step 1 ---
+  ![Step 1](./figures/Step_1.png)
+  ```
+
+  ```{tab-item} --- Step 2 ---
+  ![Step 2](./figures/Step_2.png)
+  ```
+
+  ```{tab-item} --- Step 3 ---
+  ![Step 3](./figures/Step_3.png)
+  ```
+
+  ```{tab-item} --- Step 4 ---
+  ![Step 4](./figures/Step_4.png)
+  ```
+
+  ````
+
 `````

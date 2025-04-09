@@ -40,13 +40,13 @@ Explore the chapter {fas}`arrow-right`
 :class-header: bg-light text-center
 :link: ./template_material/notebook
 :link-type: doc
-Your Portafolio in Python 🐍
+Your Portafolio Template 📋
 ^^^
-```{image} https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png
+```{image}  ../logo_template.png
 :height: 100
 ```
 +++
-Explore the chapter {fas}`arrow-right`
+Download the template {fas}`arrow-right`
 :::
 
 :::{grid-item-card}

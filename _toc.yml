@@ -9,12 +9,12 @@ parts:
       - file: book/introduction/1_psy126/0_Introduction
         sections:
           - file: book/introduction/1_psy126/1_ipynb
-          - file: book/introduction/1_psy126/2_TestReport
-          - file: book/introduction/1_psy126/3_Markdown
+          - file: book/introduction/1_psy126/2_Markdown
+          - file: book/introduction/1_psy126/3_Exercises
 
       - file: book/introduction/2_Template/0_Introduction
         sections:
-          - file: book/introduction/2_Template/1_yourTemplate        
+          - file: book/introduction/2_Template/Test_Theory_Construction_Template        
 
   - caption: Test Theory and Test Construction
     chapters:
