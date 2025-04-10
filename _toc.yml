@@ -39,11 +39,12 @@ parts:
         sections:
           - file: book/TT/10_Multilevel/1_S10_final        
     
-  - caption: Template material
+  - caption: Miscellaneous
     chapters:
-      - file: book/template_material/section1
+      - file: book/template_material/0_Introduction
         sections:
-          - file: book/template_material/templates
+          - file: book/template_material/1_Test_Theory_Construction_Template
+          - file: book/template_material/2_relevant_dates
           - file: book/template_material/notebook
 
   - caption: References

@@ -83,14 +83,19 @@ Once these installations are succesful, you are ready to start.
   ```bash
   install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')
   ```
+  ##  The Kernel crashed?
+
+  Sometimes the miniconda environment is not able to locate the R image to properly import `rpy2`. Therefore, we have to add it to the system paths manually.
 
   ````{tab-set}
   ```{tab-item} R_HOME
-  This problem will only pop up later when importing `rpy2` into your scripts.
+  This is the most likely cause of the kernel crush (us not being able to run owr `rpy2` imports).
+  
+  Follow the next steps to manually add an R_HOME path to your systhem environment variables.
   ```
 
-  ```{tab-item} Locate psy126 R
-
+  ```{tab-item} Step 1
+  ### Locate psy126 R
   To find the R installation inside your `psy126` Conda environment:
 
   1. Open the **Miniconda Prompt**.
@@ -118,19 +123,31 @@ Once these installations are succesful, you are ready to start.
 
   ```
 
-  ```{tab-item} Step 1
+  ```{tab-item} Step 2
+  ### Search for system environment variables 
+
   ![Step 1](./figures/Step_1.png)
   ```
 
-  ```{tab-item} Step 2
+  ```{tab-item} Step 3
+  ### Select `Environment Variables` 
+
   ![Step 2](./figures/Step_2.png)
   ```
 
-  ```{tab-item} Step 3
+  ```{tab-item} Step 4
+  ### Create a new variable
+  - If you find a User tab and a System tab, repeat this step twice, once for the **User Variables** and once for the **System Variables**.
+
   ![Step 3](./figures/Step_3.png)
   ```
 
-  ```{tab-item} Step 4
+  ```{tab-item} Step 5
+  ### Insert path to R
+  1. Assign to the variable name: **R_HOME**
+  2. Assign to the variable value: **previously\found\path\to\envs\psy126\Lib\R**
+      - **Note:** make sure you use backslashes
+
   ![Step 4](./figures/Step_4.png)
   ```
 
