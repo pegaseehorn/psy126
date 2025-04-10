@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-file"></i> Portfolio Material 
+# <i class="fa-solid fa-briefcase"></i> Portfolio Material 
 
 In the next page you can find a downlodable template for your portfolio.
-Soon, more information about the portfolio will be reported udner this section **Portfolio Template**
+Soon, more information about the portfolio will be reported as a file under this section **Portfolio Material**

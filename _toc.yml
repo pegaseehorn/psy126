@@ -45,7 +45,6 @@ parts:
         sections:
           - file: book/template_material/1_Test_Theory_Construction_Template
           - file: book/template_material/2_relevant_dates
-          - file: book/template_material/notebook
 
   - caption: References
     chapters:
