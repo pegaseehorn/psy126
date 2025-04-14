@@ -29,6 +29,8 @@ In the Miniconda prompt (later, we'll see how to access Conda from the VS Code t
 
 ```bash
 conda config --add channels conda-forge
+```
+```bash
 conda config --set channel_priority strict
 ```
 
@@ -37,6 +39,8 @@ Now we can create a new Conda environment, which this time not only contains Pyt
 
 ```bash
 conda create -n psy126 python r
+```
+```bash
 conda activate psy126
 ```
 
