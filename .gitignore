@@ -3,6 +3,7 @@
 *.pyc
 *test.ipynb
 *test.py
+*.ds
 
 # Folders
 _build/
