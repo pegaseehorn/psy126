@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# Jupyter Notebook
+# 1.2 Jupyter Notebook
 
 ## What is a Jupyter Notebook (`.ipynb`)?
 

@@ -11,3 +11,5 @@ kernelspec:
   language: python
   name: python3
 ---
+
+# 2.2 Statistics

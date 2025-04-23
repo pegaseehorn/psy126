@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# Installation
+# 1.1 Installation
 
 For the upcoming semester, we need to use functions from the R programming languae, which we will use within Python through the `rpy2` package.
 

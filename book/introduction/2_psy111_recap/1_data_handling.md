@@ -11,9 +11,10 @@ kernelspec:
   language: python
   name: python3
 ---
-# 2. Data Handling with `pandas`
 
-## 2.1 Loading Data
+# 2.1 Data Handling 
+
+## Loading Data
 
 ```python
 import pandas as pd
@@ -22,7 +23,7 @@ df = pd.read_csv("data/sample.csv")  # Replace with actual path
 df.head()
 ```
 
-## 2.2 Exploring Data
+## Exploring Data
 
 ```python
 df.info()
@@ -31,7 +32,7 @@ df.columns
 df.dtypes
 ```
 
-## 2.3 Handling Missing Data
+## Handling Missing Data
 
 ```python
 df.isna().sum()             # Count missing values
@@ -39,14 +40,14 @@ df = df.dropna()            # Drop rows with missing values
 df['column'] = df['column'].fillna(value)  # Fill missing values
 ```
 
-## 2.4 Filtering and Subsetting
+## Filtering and Subsetting
 
 ```python
 df_filtered = df[df["age"] > 30]
 df_subset = df[["age", "income"]]
 ```
 
-## 2.5 Grouping and Aggregation
+## Grouping and Aggregation
 
 ```python
 grouped = df.groupby("gender")["income"].mean()
