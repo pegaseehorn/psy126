@@ -13,43 +13,70 @@ kernelspec:
 ---
 
 # 2.1 Data Handling 
+First, we load the dataset:
 
 ## Loading Data
 
-```python
+```{code-cell}
 import pandas as pd
 
-df = pd.read_csv("data/sample.csv")  # Replace with actual path
-df.head()
+df_c = pd.read_csv("./data/child_num_skills.csv")  
+df_c.head()  
 ```
 
 ## Exploring Data
+Once loaded, we can inspect the structure of our dataset using a variety of methods.
+We can use .info() to get a closer look into our data:
 
-```python
-df.info()
-df.describe()
-df.columns
-df.dtypes
+```{code-cell}
+df_c.info()        # Summary including data types and non-null counts
+# df_c.columns     # List of column names
+# df_c.dtypes      # Data type of each column
 ```
 
 ## Handling Missing Data
+Real-world datasets often include missing values. **Child Numeracy Skills** does not contain any missing data, so let us load the **Yeatman** dataset for this part:
 
-```python
-df.isna().sum()             # Count missing values
-df = df.dropna()            # Drop rows with missing values
-df['column'] = df['column'].fillna(value)  # Fill missing values
+```{code-cell}
+df_y = pd.read_csv("https://yeatmanlab.github.io/AFQBrowser-demo/data/subjects.csv",
+                      usecols=[1,2,3,4,5,6,7],
+                      na_values="NaN",
+                      index_col=0)
+print(df_y.head())
+```
+
+We can count the number of missing value per category:
+
+```{code-cell}
+missing_values_count = df_y.isna().sum()    # Count of missing values per column
+
+print("In our dataset the following columns have the specified number of missing values:")
+print(missing_values_count)
+```
+`NaN` values need to be removed, or we won't be able to perform our analyses. We could fix our dataset using either one of the following strategies:
+- Use `pandas` method `.dropna()`.
+- Use `pandas` method `fillna()`.
+
+```{code-cell}
+df_y['Handedness'] = df_y['Handedness'].fillna(0)     # Replace missing values in a column
+df_y = df_y.dropna()                                  # Drop all rows with any missing value
+
+df_y.head()
 ```
 
 ## Filtering and Subsetting
+Subset data through *logical indexing* or by selecting specific columns: 
 
-```python
-df_filtered = df[df["age"] > 30]
-df_subset = df[["age", "income"]]
+```{code-cell}
+df_c_filtered = df_c[df_c["time"] > 40]         # Rows where total time taken is greater than 40
+df_c_subset = df_c[["time", "addit2"]]        # Only keep selected columns
+
+df_c_filtered.head()                             
 ```
+Alternatively we can 
+```{admonition} Full control
+:class: tip
 
-## Grouping and Aggregation
+Here we only saw few application. If you want to feel like you are in **full control**, I higly recommend checking `pandas` [documentation](https://pandas.pydata.org/docs/getting_started/index.html).
 
-```python
-grouped = df.groupby("gender")["income"].mean()
-df.groupby("group").agg({"score": ["mean", "std"]})
 ```

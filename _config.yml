@@ -6,7 +6,9 @@ copyright: "2025 Leonardo Zaggia"
 
 # Do not execute notebooks
 execute:
-  execute_notebooks: "off"
+  execute_notebooks: "auto"
+  exclude_patterns: ["*.ipynb"]
+
 
 exclude_patterns: [".venv", "README.md", test.ipynb, test.py]
 
