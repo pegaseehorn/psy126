@@ -20,7 +20,7 @@ First, we load the dataset:
 ```{code-cell}
 import pandas as pd
 
-df_c = pd.read_csv("./data/child_num_skills.csv")  
+df_c = pd.read_csv("./data/child_num_skills.csv", index_col=0)  
 df_c.head()  
 ```
 
@@ -69,11 +69,17 @@ Subset data through *logical indexing* or by selecting specific columns:
 
 ```{code-cell}
 df_c_filtered = df_c[df_c["time"] > 40]         # Rows where total time taken is greater than 40
-df_c_subset = df_c[["time", "addit2"]]        # Only keep selected columns
+df_c_subset = df_c[["time", "addit2"]]          # Only keep selected columns
 
 df_c_filtered.head()                             
 ```
-Alternatively we can 
+Alternatively we can drop specific columns using the [`.drop()`](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.drop.html) method.
+```{code-cell}
+df_only_items = df_c.drop(columns=['class', 'time'])
+
+df_only_items.head()                        
+```
+
 ```{admonition} Full control
 :class: tip
 
