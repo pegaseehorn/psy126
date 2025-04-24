@@ -16,7 +16,19 @@ kernelspec:
 
 This section introduces visual tools to explore and compare relationships within the `df_y_clean` dataset. For each plot type, we show both `matplotlib` and `seaborn` implementations in side-by-side subplots, using consistent data for direct comparison.
 
-```{code-cell}
+```{admonition} **Documentation**
+:class: note
+
+Although LLMs often replace **documentation** these days, the best way to make sure you remember *what* you use and *how* to use it is still to consult the documentation:
+- Matplotlib [Cheat Sheets](https://matplotlib.org/cheatsheets/)
+- Matplotlib [Documentation](https://matplotlib.org/stable/index.html)
+- Seaborn [Cheat Sheets](https://media.datacamp.com/legacy/image/upload/v1676302629/Marketing/Blog/Seaborn_Cheat_Sheet.pdf)
+- Seaborn [Documentation](https://seaborn.pydata.org/tutorial.html)
+```
+
+
+```{code-cell} ipython3
+:tags: [remove-input]
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
@@ -189,3 +201,44 @@ ax[1].set_title("Seaborn Correlation Heatmap")
 plt.tight_layout()
 plt.show()
 ```
+
+````{tab-set} 
+```{tab-item} Matplotlib
+~~~{admonition} Common `matplotlib` Plotting Parameters
+:class: tip, dropdown
+
+These parameters help you customize plots when using functions like `ax.plot()`, `ax.scatter()`, `ax.boxplot()`, or `ax.bar()`:
+
+- `color=`     – Set the color of lines, markers, or bars (e.g. `"red"`, `"skyblue"`).
+- `linestyle=` – Define the line style: `"-"` (solid), `"--"` (dashed), `":"` (dotted).
+- `linewidth=` – Thickness of the line.
+- `marker=`    – Shape of data points in plots: `"o"` (circle), `"s"` (square), `"^"` (triangle).
+- `alpha=`     – Transparency level (0 to 1).
+- `label=`     – Text label to show in the legend.
+- `widths=`    – Width of boxes in `boxplot()`.
+- `positions=` – Specific x-axis positions for elements (e.g. for boxplots or bars).
+- `edgecolor=` – Color of outline/border.
+- `facecolor=` – Fill color for shapes like boxes or bars.
+- `hatch=`     – Pattern inside bars/boxes (e.g. `'/'`, `'\\'`, `'-'`).
+~~~
+```
+
+```{tab-item} Seaborn
+~~~{admonition} Common `seaborn` Plotting Parameters
+:class: tip, dropdown
+
+These parameters can be used with functions like `sns.boxplot()`, `sns.scatterplot()`, or `sns.histplot()`:
+
+- `palette=` – Color palette for categories (e.g. `"pastel"`, `"Set2"`, or a list of colors).
+- `hue=` – Grouping variable to color by category.
+- `style=` – Marker or line style grouped by category (for scatter/line plots).
+- `size=` – Variable that determines marker size.
+- `alpha=` – Transparency of elements.
+- `linewidth=` – Width of lines or box borders.
+- `fliersize=` – Size of outlier markers in boxplots.
+- `dodge=` – Separate overlapping elements (e.g. `dodge=True` in grouped boxplots).
+- `width=` – Width of boxes/bars.
+- `fill=` – Whether to fill areas like density plots (`True` or `False`).
+~~~
+```
+````

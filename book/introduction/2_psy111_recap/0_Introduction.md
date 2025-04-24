@@ -46,13 +46,13 @@ This dataset contains demographic and cognitive profile data for 77 participants
 
 #### Columns
 
-- **subjectID**: Unique identifier for each participant.
-- **Age**: Participant's age in years.
-- **Gender**: Categorical variable indicating biological sex (Male/Female).
-- **Handedness**: Preferred hand for tasks (e.g., 'Right', 'Left'). Some entries are missing.
-- **IQ**: Composite intelligence quotient score.
-- **IQ_Matrix**: Score on a matrix reasoning task (non-verbal IQ component).
-- **IQ_Vocab**: Score on a vocabulary test (verbal IQ component).
+- `subjectID`: Unique identifier for each participant.
+- `Age`: Participant's age in years.
+- `Gender`: Categorical variable indicating biological sex (Male/Female).
+- `Handedness`: Preferred hand for tasks (e.g., 'Right', 'Left'). Some entries are missing.
+- `IQ`: Composite intelligence quotient score.
+- `IQ_Matrix`: Score on a matrix reasoning task (non-verbal IQ component).
+- `IQ_Vocab`: Score on a vocabulary test (verbal IQ component).
 
 #### Notes
 
