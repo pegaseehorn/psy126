@@ -29,9 +29,8 @@ Once loaded, we can inspect the structure of our dataset using a variety of meth
 We can use .info() to get a closer look into our data:
 
 ```{code-cell}
-df_c.info()        # Summary including data types and non-null counts
-# df_c.columns     # List of column names
-# df_c.dtypes      # Data type of each column
+print(df_c.info())        # Summary including data types and non-null counts
+print(df_c.columns)       # List of column names
 ```
 
 ## Handling Missing Data
@@ -55,7 +54,7 @@ print(missing_values_count)
 ```
 `NaN` values need to be removed, or we won't be able to perform our analyses. We could fix our dataset using either one of the following strategies:
 - Use `pandas` method `.dropna()`.
-- Use `pandas` method `fillna()`.
+- Use `pandas` method `.fillna()`.
 
 ```{code-cell}
 df_y['Handedness'] = df_y['Handedness'].fillna(0)     # Replace missing values in a column
