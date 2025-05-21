@@ -23,8 +23,10 @@ parts:
     chapters:
       - file: book/TT/6_Dichotomous_IRT/0_Introduction
         sections:
-          - file: book/TT/6_Dichotomous_IRT/1_S06_final
-          - file: book/TT/6_Dichotomous_IRT/2_Exercises
+          - file: book/TT/6_Dichotomous_IRT/1_rpy2
+          - file: book/TT/6_Dichotomous_IRT/2_dicho
+          - file: book/TT/6_Dichotomous_IRT/3_irt
+          - file: book/TT/6_Dichotomous_IRT/4_Exercises
       
       - file: book/TT/7_Polythomous_IRT/0_Introduction
         sections:
