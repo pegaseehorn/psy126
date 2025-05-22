@@ -16,6 +16,6 @@ kernelspec:
 
 ## Measurement models for Dichotomous scores 
 
-In today session we will first learn how to work with `rpy2`, then how to perform the first necessary step in IRT based analysis, such as assessing the dimentionality of a given questionaire. And focus on dychotomous scored items and their anaylsis using Rasch, 2Pl, and 3PL models.
+In today session we will first learn how to work with `rpy2`, then how to perform the first necessary step in IRT based analysis, such as assessing the dimentionality of a given questionaire. And focus on dychotomous scored items and their anaylsis using Rasch, 2-PL, and (briefly) 3-PL models.
 
 
