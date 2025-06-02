@@ -30,7 +30,10 @@ parts:
       
       - file: book/TT/7_Polythomous_IRT/0_Introduction
         sections:
-          - file: book/TT/7_Polythomous_IRT/1_S07_final  
+          - file: book/TT/7_Polytomous_IRT/1_Rating_Scale_Model
+          - file: book/TT/7_Polytomous_IRT/2_Partial_Credit_Models
+          - file: book/TT/7_Polytomous_IRT/3_Graded_Response_Model
+          - file: book/TT/7_Polytomous_IRT/4_Exercises
 
       - file: book/TT/8_Quantitative_IRT/0_Introduction
         sections:
