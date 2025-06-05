@@ -6,7 +6,7 @@
 
 $\ $
 
-# Item Response Theory and Test Construction in Python 
+# Item Response Theory (IRT) and Test Construction in Python 
 
 $\ $
 
