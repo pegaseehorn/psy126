@@ -6,13 +6,13 @@
 
 $\ $
 
-# Item Response Theory (IRT) and Test Construction in Python 
+# Item Response Theory and Test Construction in Python 
 
 $\ $
 
 ## Online usage (recommended)
 
-Course materials for the psy126 seminar of the Neurocognitive Psychology Master's course at the University of Oldenburg. The content should primarily be accessed from the online book.
+Course materials for the psy126 seminar of the Neurocognitive Psychology Master's course at the University of Oldenburg focusing on Item Response Theory (IRT) using python interface. The content should primarily be accessed from the online book.
 
 If you host your book on GitHub pages, you can add the link to this button: [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/psy126/)
 
