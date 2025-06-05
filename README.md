@@ -1,24 +1,35 @@
-<div style="padding-top:1em; padding-bottom: 0.5em;">
-  <img src="4.png" width=170 align="right" style="padding-left: 1em;"/>
+<div style="padding-top:1em; padding-bottom:0.5em;">
+  <img src="4.png" width="170" align="right" style="padding-left:1em;" />
 </div>
 
 <br>
 
 $\ $
 
-# Item Response Theory and Test Construction in Python 
+# Item Response Theory and Test Construction in Python
 
 $\ $
 
+This repository contains the **psy126** seminar materials for the Neurocognitive Psychology M.Sc. at the University of Oldenburg. All lectures and exercises are provided as a Jupyter Book and focus on applying Item Response Theory (IRT) and test construction techniques in **Python**.
+
+## Topics covered
+
+The book includes notebooks and slides on:
+
+- Setting up your Python environment and working with Jupyter notebooks
+- Data curation, manipulation and visualization with `pandas`, `numpy` and `matplotlib`
+- Measurement models for **dichotomous items** (Rasch, 2‑PL, 3‑PL) using `rpy2`
+- Models for **polytomous items**: Rating Scale Model, Partial Credit Model, Generalized PCM and Graded Response Model
+- Concepts of **quantitative IRT**, **differential item functioning**, and **multilevel** / multidimensional modeling
+- Templates for test theory reports and further resources
+
 ## Online usage (recommended)
 
-Course materials for the psy126 seminar of the Neurocognitive Psychology Master's course at the University of Oldenburg focusing on Item Response Theory (IRT) using python interface. The content should primarily be accessed from the online book.
-
-If you host your book on GitHub pages, you can add the link to this button: [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/psy126/)
+The book is best viewed online via GitHub Pages: [![Jupyter Book Badge](https://jupyterbook.org/badge.svg)](https://leonardozaggia.github.io/psy126/)
 
 ## Local usage
 
-Running the book locally requires to first build the book from source:
+To build the book locally:
 
 ```batch
 cd <path/to/book/>
@@ -26,18 +37,16 @@ pip install -r requirements.txt
 jb build .
 ```
 
-This will create the html files in the `_build/` folder. The book can then be used by opening the `_build/html/index.html` file in a browser. The *.ipynb* notebooks for the exercises are located in the `book/` folder and can can either be opened locally or through Google Colab.
+This creates HTML files in `_build/`. Open `_build/html/index.html` in your browser to browse the book. Exercise notebooks live in the `book/` folder and can be run locally or on Google Colab.
 
 ## Cloning the repository
 
-If you do not want to download a new version of the book every time, you can leverage GitHub cloning feature.
-Open a terminal from your desired IDE.
+Clone the repository if you want to keep a local copy and pull updates:
 
 ```batch
-cd <path/to/where/you/want/to/save/the/book>
 git clone https://github.com/leonardozaggia/psy126.git
 ```
 
-Make sure that when working on the exercises, you save them on a different folder. In this way your exercise will not be deleated once you update the book using the `git pull` comand from the terminal. As we update the book frequently, please make sure to update the book regularly.
+Save your exercise solutions outside the repository to avoid overwriting them when running `git pull`.
 
-A comprehensive tutorial on how to use git on VS code can be found at this link [![YouTube Badge](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=i_23KUAEtUM)
+A comprehensive tutorial on using Git in VS Code is available here: [![YouTube Badge](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=i_23KUAEtUM)
