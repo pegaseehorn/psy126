@@ -9,7 +9,6 @@ execute:
   execute_notebooks: "auto"
   exclude_patterns: ["*.ipynb"]
 
-
 exclude_patterns: [".venv", "README.md", test.ipynb, test.py]
 
 # Define the name of the latex output file for PDF builds
