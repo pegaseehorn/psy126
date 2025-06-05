@@ -12,7 +12,7 @@ kernelspec:
   name: python3
 ---
 
-# <i class="fa-solid fa-cubes"></i> Polythomous
+# <i class="fa-solid fa-cubes"></i> Polytomous
 
 ## Measurement models for Polytomous scores
 
