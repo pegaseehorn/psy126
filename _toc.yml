@@ -37,7 +37,10 @@ parts:
 
       - file: book/TT/8_Quantitative_IRT/0_Introduction
         sections:
-          - file: book/TT/8_Quantitative_IRT/1_S08_final    
+          - file: book/TT/8_Quantitative_IRT/1_Tau-Congeneric_Measurement_Model
+          - file: book/TT/8_Quantitative_IRT/2_Tau-Equivalent_Models
+          - file: book/TT/8_Quantitative_IRT/3_Tau-Parallel_Models
+          - file: book/TT/8_Quantitative_IRT/4_Exercises    
 
       - file: book/TT/9_Invariance/0_Introduction
         sections:
