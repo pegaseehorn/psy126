@@ -16,15 +16,15 @@ kernelspec:
 
 ## Measurement Models for Quantitative Scores
 
-Welcome to today's seminar on measurement models applied to quantitative datasets.
+Welcome to today's seminar on measurement models for *quantitative* data.
 
-Today we extend our model selection to models appropriate for dealing with quantitative datasets. Here, items are coded with not necessary natural numeric values (e.g. 4.5, 4.6, 4.87).
+Today we extend our model selection to data where item scores are not limited to integers. Values may be any real numbers (e.g., 4.5, 4.6, 4.87).
 
 The models we will introduce today can be organised in three families according to increasing restrictiveness:
 
-- **Tau-Congeneric Measurement Models** - freely estimates item difficulty & -discrimination parameters and item reliability.
-- **(Essentially) Tau-Equivalent Measurement Models** - additionally restricts the item discrimination parameter (Essentially Tau-Equivalent) and also the item difficulty parameter (Tau-Equivalent).
-- **(Essentially) Tau-Parallel Measurement Models** - additionally restricts the item discrimination parameter & reliability (Essentially Tau-Parallel) and also the item difficulty parameter (Tau-Parallel).
+- **Tau-Congeneric Measurement Models** – freely estimate item difficulty and discrimination parameters, as well as item reliability.
+- **(Essentially) Tau-Equivalent Measurement Models** – additionally restrict discrimination (Essentially tau-equivalent) and, in the tau-equivalent case, also fix item difficulty.
+- **(Essentially) Tau-Parallel Measurement Models** – additionally constrain discrimination and reliability (Essentially tau-parallel) and, in the tau-parallel model, also equate item difficulty.
 
 ### Reminder:
 In the lecture we used this slide to get an overview of the different measurement models and their assumptions. Maybe you remember?
