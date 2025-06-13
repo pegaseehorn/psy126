@@ -38,7 +38,7 @@ Now we can create a new Conda environment, which this time not only contains Pyt
 
 
 ```bash
-conda create -n psy126 python r
+conda create -n psy126 python=3.11 r
 ```
 ```bash
 conda activate psy126
@@ -47,7 +47,7 @@ conda activate psy126
 If the environment now shows up as `(psy126)`, you are ready to install the required Python packages for the semester:
 
 ```bash
-pip install matplotlib pandas numpy rpy2 ipykernel statsmodels
+pip install matplotlib pandas numpy rpy2==3.5.7 ipykernel statsmodels seaborn
 ```
 
 Finally, we can install the required R packages.
@@ -56,13 +56,13 @@ Finally, we can install the required R packages.
 ````{tab-set}
 ```{tab-item} Windows
 ~~~bash
-R.exe -e "install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
+R.exe -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
 ~~~
 ```
 
 ```{tab-item} Linux/MacOS
 ~~~bash
-R -e "install.packages(c('Gifi', 'mirt', 'psych', 'MPsychoR', 'polycor', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
+R -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
 ~~~
 ```
 ````
