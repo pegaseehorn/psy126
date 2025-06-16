@@ -15,6 +15,6 @@ kernelspec:
 # <i class="fa-solid fa-scale-balanced"></i> DIF
 
 
-## Differential item functioning - Measurement invariance across groups and time
+## Differential item functioning – Measurement invariance across groups and time
 
-Differential Item Functioning (DIF) refers to a situation in which an item on a test or questionnaire performs differently for distinct groups of respondents, even when those groups have the same underlying ability or trait level. In other words, DIF occurs when individuals from different groups (such as gender, ethnicity, or language background) with the same overall ability have a different probability of answering an item correctly or endorsing a response. Detecting DIF is important to ensure fairness and validity in assessments, as it helps identify items that may be biased or unfair to certain groups.
+Differential item functioning (DIF) arises when an item behaves differently for distinct respondent groups who possess the same latent ability. Consequently, the probability of endorsing an item varies by group membership, signalling potential bias. Detecting DIF safeguards fairness and validity by identifying items that disadvantage particular groups.
