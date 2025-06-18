@@ -56,13 +56,13 @@ Finally, we can install the required R packages.
 ````{tab-set}
 ```{tab-item} Windows
 ~~~bash
-R.exe -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
+R.exe -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'semTools', 'lordif', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
 ~~~
 ```
 
 ```{tab-item} Linux/MacOS
 ~~~bash
-R -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
+R -e "install.packages(c('Gifi', 'mirt', 'future', 'psych', 'MPsychoR', 'polycor', 'lavaan', 'semTools', 'lordif', 'admisc', 'ltm', 'eRm'), repos='https://cran.uni-muenster.de')"
 ~~~
 ```
 ````
