@@ -47,6 +47,7 @@ parts:
           - file: book/TT/9_Invariance/1_inv_quant  
           - file: book/TT/9_Invariance/2_inv_qual  
           - file: book/TT/9_Invariance/3_inv_time  
+          - file: book/TT/9_Invariance/4_Exercises  
 
       - file: book/TT/10_Multilevel/0_Introduction
         sections:
