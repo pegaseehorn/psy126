@@ -12,15 +12,44 @@ kernelspec:
   name: python3
 ---
 
-# Testing rpy2: Princals
+# 8.1 IRT and Factor Analysis
 
-We first start with setting up the environment and install the required R and Python packages:
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://www.researchgate.net/profile/R-Chalmers/publication/275441302/figure/fig1/AS:613924500164609@1523382415156/The-probability-surface-plots-on-the-top-represent-two-dimensional-compensatory-left.png" alt="Multidimensional IRT" style="width: 49%;">
+</div>
 
-```{code-cell}  
-#!R -e "install.packages(c('mirt', 'Gifi', 'MPsychoR', 'ltm'), repos='https://cran.uni-muenster.de', quiet=TRUE)"
-#!pip install rpy2==3.5.17
-# Uncomment the line above if you are using Google Colab
-```
+EFA and CFA are designed for metric input variables
+(unless we use specific correlation coefficients suited for categorical data, like tetrachoric correlation). The
+main outcomes are factor loadings and factor scores. IRT models are designed for
+categorical data with item-category parameters (location, discrimination) and person
+parameters as main outcomes. However, it has been found that there is a strong
+parametric relationship between FA and IRT (Takane and De Leeuw, 1986).  
+
+Let us consider a simple unidimensional 2-PL, rewritten in logit form:  
+
+(1) $logit(P(X_{vi})) = \alpha_i(\theta_v - \beta_i))$
+
+We can re-parameterize this model as  
+
+(2) $logit(P(X_{vi})) = \alpha_i\theta_v - d_i$
+
+with $d_i = -\beta_i\alpha_i$
+
+The second equation reflects a factor analytic intercept-slope representation of the
+2-PL. The discrimination parameter $\alpha_i$ can be interpreted as loading (i.e., slope as
+reflected in the ICC plot). The parameter $d_i$ is the intercept. From the first equation,
+it follows that $d_i$ = $-\beta_i\alpha_i$ . Note that both equations fit the same model, they are just
+parameterized differently. Consequently, the parameters $\theta_i$ are the same, regardless
+which expression we use. Within an IRT context (first equation), we call them “person
+parameters,” whereas within a FA context (second equation), we call them “factor scores".  
+
+## Fit the models
+
+To illustrate, we conduct a 2-PL analysis which involved
+dichotomous items on knowledge characteristics from the WDQ dataset.
+We use the `ltm` package for R and request the two different parameterizations.
+
+First, import all the necessary packages for R and Python.
 
 ```{code-cell}  
 # General imports
@@ -52,45 +81,6 @@ importr('MPsychoR')
 importr('ltm')
 ```
 
-
-
-## 1. IRT and Factor Analysis
-
-<div style="display: flex; justify-content: space-between;">
-  <img src="https://www.researchgate.net/profile/R-Chalmers/publication/275441302/figure/fig1/AS:613924500164609@1523382415156/The-probability-surface-plots-on-the-top-represent-two-dimensional-compensatory-left.png" alt="Multidimensional IRT" style="width: 49%;">
-</div>
-
-EFA and CFA are designed for metric input variables
-(unless we use specific correlation coefficients suited for categorical data, like tetrachoric correlation). The
-main outcomes are factor loadings and factor scores. IRT models are designed for
-categorical data with item-category parameters (location, discrimination) and person
-parameters as main outcomes. However, it has been found that there is a strong
-parametric relationship between FA and IRT (Takane and De Leeuw, 1986).  
-
-Let us consider a simple unidimensional 2-PL, rewritten in logit form:  
-
-(1) $logit(P(X_{vi})) = \alpha_i(\theta_v - \beta_i))$
-
-We can re-parameterize this model as  
-
-(2) $logit(P(X_{vi})) = \alpha_i\theta_v - d_i$
-
-with $d_i = -\beta_i\alpha_i$
-
-The second equation reflects a factor analytic intercept-slope representation of the
-2-PL. The discrimination parameter $\alpha_i$ can be interpreted as loading (i.e., slope as
-reflected in the ICC plot). The parameter $d_i$ is the intercept. From the first equation,
-it follows that $d_i$ = $-\beta_i\alpha_i$ . Note that both equations fit the same model, they are just
-parameterized differently. Consequently, the parameters $\theta_i$ are the same, regardless
-which expression we use. Within an IRT context (first equation), we call them “person
-parameters,” whereas within a FA context (second equation), we call them “factor scores".  
-
-### Fit the models
-
-To illustrate, we conduct a 2-PL analysis which involved
-dichotomous items on knowledge characteristics from the WDQ.
-We use `ltm` package and request the two different parameterizations.  
-
 Load and inspect the dataset `RWDQ` and remove the first item (first column). Name your subset `RWDQ1`.
 
 ```{code-cell} 
@@ -106,7 +96,7 @@ RWDQ1 = RWDQ.drop(RWDQ.columns[0], axis=1)
 ro.globalenv['RWDQ1'] = RWDQ1
 ```
 
-Now we fit the two models mentioned above. Try to complete the code for the factor analytic model by setting `IRT.param = FALSE`.
+Now we fit the two models mentioned above.
 
 ```{code-cell}  
 # Fit the IRT model using lavaan's ltm

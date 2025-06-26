@@ -16,4 +16,5 @@ kernelspec:
 
 ## Multidimentional models
 
-⚠️ This section is under construction. Content will be added soon.
+Today we explore how to use factor-analytic models for multidimensional IRT.  
+We will look at the theoretical background first and then demonstrate both exploratory and confirmatory multidimensional IRT, using factor-analytic models.
